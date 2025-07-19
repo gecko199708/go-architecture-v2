@@ -1,0 +1,48 @@
+@font-face {
+	font-family: 'monaspace-argon';
+	src: url('/fonts/MonaspaceArgon-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+:root {
+	--color-primary: #1B65A6;
+	--color-secondary: #163E8C;
+	--color-accent: #3BACD9;
+
+	--color-white: #ffffff;
+	--color-black: #00070D;
+
+	--color-text-primary: #333333;
+	--color-text-secondary: #555555;
+
+	--color-background: #ffffff;
+	--color-surface: #f0eeee;
+
+	--color-border: #dddddd;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-text-primary: #f8f4f4;
+		--color-text-secondary: #cfcbcb;
+
+		--color-background: #0d1117;
+		--color-surface: #3b3b3b;
+
+		--color-border: #dddddd;
+	}
+}
+
+body {
+	font-family: 'monaspace-argon', sans-serif;
+
+	color: var(--color-black);
+	background-color: var(--color-background);
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		color: var(--color-white);
+	}
+}

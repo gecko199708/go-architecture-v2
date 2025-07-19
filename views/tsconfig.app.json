@@ -25,7 +25,8 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
     "paths": {
-      "@dynamic/*": ["./src/common/dynamic/*"]
+      "@dynamic/*": ["./src/common/dynamic/*"],
+      "@design/*": ["./src/common/design/*"]
     }
   },
   "include": ["src"]

@@ -1,0 +1,48 @@
+@use "@design/theme";
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--color-text-primary);
+    border-bottom: solid 1px var(--color-border);
+}
+
+h1 {
+    animation: highlight 7s infinite forwards;
+}
+
+section {
+    padding-block: 1em;
+    background-color: var(--color-surface);
+}
+
+p {
+    color: var(--color-text-primary);
+
+    strong {
+        color: var(--color-accent);
+    }
+}
+
+a {
+    color: var(--color-accent);
+
+    &:hover {
+        color: var(--color-text-secondary);
+    }
+}
+
+@keyframes highlight {
+    0% {
+        color: var(--color-text-primary);
+    }
+
+    50% {
+        color: var(--color-primary);
+    }
+
+    100% {
+        color: var(--color-text-primary);
+    }
+}

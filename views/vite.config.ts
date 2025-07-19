@@ -29,6 +29,7 @@ const options = {
 	},
 	alias: {
 		"@dynamic": resolve(__dirname, "./src/common/dynamic"),
+		"@design": resolve(__dirname, "./src/common/design"),
 	} satisfies PathAlias,
 } as const;
 
@@ -53,6 +54,11 @@ export default defineConfig({
 		css: {
 			modules: {
 				localsConvention: "dashes",
+			},
+			preprocessorOptions: {
+				scss: {
+					api: "modern-compiler",
+				},
 			},
 		},
 		resolve: {

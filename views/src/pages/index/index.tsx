@@ -6,6 +6,6 @@ const apps = [
 		mountPoint: "app-main",
 		app: () => <App />,
 	},
-] as Applications;
+] satisfies Applications;
 
 Mount(apps);
