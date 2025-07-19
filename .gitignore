@@ -1,0 +1,28 @@
+# vscode settings
+.vscode/*
+!tasks.json
+!cspell.json
+!extensions.json
+!launch.json
+
+# Node.js
+node_modules
+*.tsbuildinfo
+
+# Editor directories and files
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# develop
+local/*
+!local/.gitkeep
+*_local_test.go
+
+# packaging
+package/*
+package.tar.gz

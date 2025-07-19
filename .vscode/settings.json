@@ -1,8 +1,9 @@
 {
-    // "go.buildFlags": ["-tags=develop"],
-    "go.buildFlags": ["-tags=production"],
-    "go.toolsEnvVars": {
-        // "GOFLAGS": "-tags=develop"
-        "GOFLAGS": "-tags=production"
-    }
+  // "go.buildFlags": ["-tags=develop"],
+  "go.buildFlags": ["-tags=production"],
+  "go.toolsEnvVars": {
+    // "GOFLAGS": "-tags=develop"
+    "GOFLAGS": "-tags=production"
+  },
+  "go.testFlags": ["-trimpath", "-v"]
 }

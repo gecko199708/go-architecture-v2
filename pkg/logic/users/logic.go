@@ -2,14 +2,11 @@ package users
 
 import (
 	"app/pkg/app/dependencies"
-	"app/pkg/common/helper/repository"
-	"app/pkg/entity"
+	"app/pkg/logic/repository"
 )
 
 type Repository interface {
-	Users() interface {
-		repository.Selector[entity.User]
-	}
+	Users() repository.UsersRepository
 }
 
 type Logic struct {

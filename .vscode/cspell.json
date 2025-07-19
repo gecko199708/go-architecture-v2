@@ -1,0 +1,4 @@
+{
+  "words": ["macropygia", "vite"],
+  "ignorePaths": ["go.mod", "go.sum", "package.json", ".gitignore"]
+}

@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "golang.go",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "streetsidesoftware.code-spell-checker",
+    "biomejs.biome",
+    "YoavBls.pretty-ts-errors",
+    "VisualStudioExptTeam.intellicode-api-usage-examples",
+    "ms-azuretools.vscode-docker",
+    "Gruntfuggly.todo-tree",
+    "esbenp.prettier-vscode"
+  ]
+}
